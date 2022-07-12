@@ -14,7 +14,6 @@
     border-radius: 4px;
     border: none;
     font-family: inherit;
-    font-style: inherit;
 }
 
 .btn-all{
@@ -64,8 +63,6 @@
 }
 
 .product-type {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
     color: var(--primary-color);
