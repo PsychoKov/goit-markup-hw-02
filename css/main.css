@@ -11,9 +11,13 @@ body {
     color: #212121;
 }
 
-.list { list-style: none; }
+.list {
+    list-style: none;
+}
 
-.link { text-decoration: none; }
+.link {
+    text-decoration: none;
+}
 
 /* =================MAIN=================== */
 /* =================HEADER=================== */
@@ -34,6 +38,10 @@ body {
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
     color: #000;
+}
+
+.white {
+    color: #fff;
 }
 
 .menu-link {
@@ -60,6 +68,10 @@ body {
     color: var(--hover-color);
 }
 
+.active {
+    color: #188CE8;
+}
+
 /* =================HEADER=================== */
 /* =================FOOTER=================== */
 
@@ -72,6 +84,7 @@ body {
 }
 
 .footer-contact-address {
+    font-style: normal;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
@@ -80,6 +93,7 @@ body {
 
 .footer-conact-email,
 .footer-contact-phone-number {
+    font-style: normal;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
